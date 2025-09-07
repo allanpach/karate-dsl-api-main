@@ -1,0 +1,14 @@
+des:
+  env: 'dev'
+  url: 'https://serverest.qa'
+
+uat:
+  env: 'uat'
+  name_url: ''
+
+qa:
+  env: 'qa'
+  realworld: 'https://api.realworld.io'
+  fakerestapi: 'https://fakerestapi.azurewebsites.net'
+  url: 'https://demoqa.com'
+  url_users: 'https://jsonplaceholder.typicode.com'

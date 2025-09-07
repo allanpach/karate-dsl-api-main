@@ -1,0 +1,108 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#" ,
+  "tipo" : "objeto" ,
+  "propriedades" : {
+    "userId" : {
+      "tipo" : "string"
+    },
+    "nome de usuário" : {
+      "tipo" : "string"
+    },
+    "livros" : {
+      "tipo" : "matriz" ,
+      "itens" : [
+        {
+          "tipo" : "objeto" ,
+          "propriedades" : {
+            "isbn" : {
+              "tipo" : "string"
+            },
+            "título" : {
+              "tipo" : "string"
+            },
+            "subtítulo" : {
+              "tipo" : "string"
+            },
+            "autor" : {
+              "tipo" : "string"
+            },
+            "data_de_publicação" : {
+              "tipo" : "string"
+            },
+            "editor" : {
+              "tipo" : "string"
+            },
+            "páginas" : {
+              "tipo" : "inteiro"
+            },
+            "descrição" : {
+              "tipo" : "string"
+            },
+            "site" : {
+              "tipo" : "string"
+            }
+          },
+          "obrigatório" : [
+            "isbn" ,
+            "título" ,
+            "subtítulo" ,
+            "autor" ,
+            "data_de_publicação" ,
+            "editora" ,
+            "páginas" ,
+            "descrição" ,
+            "site"
+          ]
+        },
+        {
+          "tipo" : "objeto" ,
+          "propriedades" : {
+            "isbn" : {
+              "tipo" : "string"
+            },
+            "título" : {
+              "tipo" : "string"
+            },
+            "subtítulo" : {
+              "tipo" : "string"
+            },
+            "autor" : {
+              "tipo" : "string"
+            },
+            "data_de_publicação" : {
+              "tipo" : "string"
+            },
+            "editor" : {
+              "tipo" : "string"
+            },
+            "páginas" : {
+              "tipo" : "inteiro"
+            },
+            "descrição" : {
+              "tipo" : "string"
+            },
+            "site" : {
+              "tipo" : "string"
+            }
+          },
+          "obrigatório" : [
+            "isbn" ,
+            "título" ,
+            "subtítulo" ,
+            "autor" ,
+            "data_de_publicação" ,
+            "editora" ,
+            "páginas" ,
+            "descrição" ,
+            "site"
+          ]
+        }
+      ]
+    }
+  },
+  "obrigatório" : [
+    "userId" ,
+    "nome de usuário" ,
+    "livros"
+  ]
+}
