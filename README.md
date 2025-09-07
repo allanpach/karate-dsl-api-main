@@ -200,7 +200,7 @@ karateFramework-API-automation/
 
 1. **Clone the repository**
    ```bash
-   git clone ...
+   git clone https://github.com/allanpach/karate-dsl-api-main.git
    cd karateFramework-API-automation
    ```
 
