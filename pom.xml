@@ -14,6 +14,13 @@
         <maven.surefire.version>2.22.2</maven.surefire.version>        
         <karate.version>1.1.0</karate.version>
     </properties>    
+         <distributionManagement>
+  <repository>
+    <id>github</id>
+    <name>GitHub Packages</name>
+    <url>https://maven.pkg.github.com/allanpach/karate-dsl-api-main</url>
+  </repository>
+</distributionManagement>
 
     <dependencies>         
         <dependency>
